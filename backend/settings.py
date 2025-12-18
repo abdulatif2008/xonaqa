@@ -23,10 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-rzfzr0#i^ni77(l)@*o7%q1p&ml+knaas1(botne^ym1x3k5w#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = []
-MEDIA_URL = '/media/'
+DEBUG = False
+ALLOWED_HOSTS = ['https://xonaqa.onrender.com']
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 
