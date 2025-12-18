@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rzfzr0#i^ni77(l)@*o7%q1p&ml+knaas1(botne^ym1x3k5w#
 # SECURITY WARNING: don't run with debug turned on in production!
 
 DEBUG = False
-ALLOWED_HOSTS = ['https://xonaqa1.onrender.com']
+ALLOWED_HOSTS = ['xonaqa1.onrender.com']
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 MEDIA_ROOT = BASE_DIR / 'media'
